@@ -1,0 +1,69 @@
+:root {
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  color: #e7edf5;
+  background: #0e1219;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg: #0e1219;
+  --surface: #1a202a;
+  --surface-raised: #222a36;
+  --editor-bg: #111720;
+  --border: #626e80;
+  --border-subtle: #303a49;
+  --muted: #a0adbf;
+  --muted-dim: #8794a7;
+  --text-secondary: #bac5d4;
+  --text: #e7edf5;
+  --data-accent: #77deea;
+  --variable-accent: #c4a8ff;
+  --execution-accent: #ffcb78;
+  --error-accent: #ff9da5;
+  --success: #a8e7c9;
+  --mono: 'Cascadia Code', 'SFMono-Regular', Consolas, monospace;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--bg);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 50% -430px, rgba(43, 82, 102, 0.2), transparent 68%),
+    linear-gradient(180deg, #111720 0, var(--bg) 360px);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--data-accent);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #0e1219;
+  background: var(--data-accent);
+}
