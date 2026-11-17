@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CodeFlow
 
 CodeFlow helps beginner CS students understand Python loops and lists through
@@ -82,10 +81,3 @@ inputs produce a trace error rather than simulated output.
 - `src/trace.ts` — typed snapshots, parser, restricted interpreter, and limits.
 - `src/App.tsx` — editor, examples, state panels, navigation, and prediction.
 - `tests/trace.test.mjs` — interpreter, output, error, and resource-limit tests.
-
-The editor is a lightweight native text area with synchronized line numbers
-and current-line highlighting. CodeMirror and Pyodide are not used; the small
-parser is easier to audit and keeps the supported semantics explicit.
-=======
-# codeflow
->>>>>>> origin/main
